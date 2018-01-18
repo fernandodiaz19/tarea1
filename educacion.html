@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+    	<meta name="author" content="Fernando J. Diaz M">
+    	<title>Hoja de Vida Digital</title>
+	</head>
+	<body>
+		<header>
+			<svg width="250" height="120px">
+				<image xlink:href="images/logo_fjdm.svg" width="250" height="120px" x="0" y="0"></image>
+			</svg>
+			
+			<h1>Hoja de Vida</h1>
+			<h3>Fernando Jose Diaz Martinez</h3>
+		</header>
+		<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Expereiencia</a></li>
+		</ul>
+		</nav>
+		<section>
+			<article>
+			<h2>Educación</h2>
+			<table width="100%" border="1">
+			  <tbody>
+				<tr>
+				  <td>Año</td>
+				  <td>Institución</td>
+				  <td>Lugar</td>
+				  <td>¿Culminó?</td>
+				</tr>
+				<tr>
+				  <td>2010</td>
+				  <td>Universidad Nacional Abierta y a Distancia - UNAD</td>
+				  <td>Corozal - Colombia</td>
+				  <td>Si</td>
+				</tr>
+				<tr>
+				  <td>2016</td>
+				  <td>Universidad de Santader - UDES</td>
+				  <td>Bucaramanga - Colombia</td>
+				  <td>Si</td>
+				</tr>
+			  </tbody>
+			</table>
+			<br/>
+			<h3>Agregar Estudios</h3>
+			<form name="formulario">
+			<p>
+				<label for="ano">Año</label>
+				<select name="ano">
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+				</select>
+			</p>
+			<p>	
+				<label for="inst">Institución:</label>
+				<input type="text" name="inst" required>
+			</p>
+			<p>	
+				<label for="lugar">Lugar:</label>
+				<textarea name="lugar" id="" cols="30" rows="3"></textarea>
+			</p>	
+			<p>
+				<label for="culmino">¿Culminó?: </label>
+				<input type="radio" name="culmino"> Si
+				<input type="radio" name="culmino"> No
+			</p>
+			<p>
+				<input type="submit" value="Enviar">
+			</p>
+			</form>
+				
+			</article>
+		</section>
+		<footer>
+			@Derechos Reservados
+			<ul>
+				<li><strong>Email: </strong><a href="mailto:fernandodiaz_19@hotmail.com">fernandodiaz_19@hotmail.com</a></li>
+				<li><strong>Telefono: </strong>3013647282</li>
+				<li><strong>Dirección: </strong>Sincelejo - Colombia</li>
+			</ul>
+		</footer>
+	</body>
+</html>
